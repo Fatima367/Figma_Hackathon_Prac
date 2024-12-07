@@ -148,7 +148,7 @@ export default function Cart() {
                 className="space-x-[10px] px-[48px] py-[16px] rounded ring-1 ring-black ring-opacity-50
                 text-white bg-[#DB4444]"
               >
-                <p className="text-[16px] font-medium">Procees to checkout</p>
+                <p className="text-[16px] font-medium">Proceed to checkout</p>
               </button>
             </div>
           </div>
