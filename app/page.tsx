@@ -97,7 +97,7 @@ export default function Home() {
                 <h2 className="text-[36px] font-bold">Flash Sales</h2>
               </div>
 
-              <div className="flex flex-row space-x-3">
+              <div className="flex flex-row space-x-3 items-center mt-11">
                 <div className="flex flex-col space-y-[4px] items-center">
                   <p className="text-[12px] font-medium text-center">Days</p>
                   <h3 className="text-[32px] font-bold">03</h3>
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center gap-[30px] mt-[60px] mb-[140px] mr-0">
+          <div className="flex items-stretch justify-center space-x-[30px] mt-[60px] mb-[140px] -mr-48">
             <div className="space-y-[16px]">
               <Image
                 src="/images/riimage.png"
@@ -553,10 +553,9 @@ export default function Home() {
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
         {/*----------------*/}
-
         <div
           className="flex space-x-[65px] bg-black items-center justify-center mx-auto mb-[71px]
-        h-[500px] w-10/12"
+            h-[500px] w-10/12"
         >
           <div className="flex flex-col space-y-[32px] items-start justify-between">
             <p className="text-[16px] font-semibold text-[#00FF66]">
@@ -925,7 +924,88 @@ export default function Home() {
             <h2 className="text-[36px] font-semibold">New Arrival</h2>
           </div>
 
-          <div className="space-x-[30px] flex"></div>
+          <div className="space-x-[30px] flex items-start justify-between">
+            <div className="bg-black rounded w-[570px] h-[645px]">
+              <Image
+                src="/images/ps5.png"
+                width={511}
+                height={511}
+                alt="PS5"
+                className="mt-[89px] mx-auto"
+              />
+
+              <div className="space-y-[16px] z-20 text-white ml-8 -mt-40">
+                <h2 className="text-[24px] font-semibold">PlayStation 5</h2>
+                <p className="text-[14px]">
+                  Black and White version of the PS5 <br /> coming out on sale.
+                </p>
+                <p className="text-[16px] font-medium underline">Shop Now</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col space-y-[32px]">
+              <div className="rounded bg-[#0D0D0D] flex w-[570px] -space-x-[141px]">
+                <div className="space-y-[16px] z-10 text-white ml-6 mt-24 mb-5">
+                  <h2 className="text-[24px] font-semibold">
+                    Women’s Collections
+                  </h2>
+                  <p className="text-[24px]">
+                    Featured woman collections that <br /> give you another
+                    vibe.
+                  </p>
+                  <p className="text-[24px] font-medium underline">Shop Now</p>
+                </div>
+                <Image
+                  src="/images/hatwoman.png"
+                  height={286}
+                  width={432}
+                  alt="hat-woman"
+                />
+              </div>
+
+              <div className="space-x-[30px] flex">
+                <div className="bg-black w-[270px] h-[284px]">
+                  <div className="flex flex-col items-center justify-center">
+                    <div className="rounded-full bg-[#D9D9D9] w-[260px] h-[274px] blur-[70px] opacity-30"></div>
+                    <Image
+                      src="/images/speakers.png"
+                      width={190}
+                      height={221}
+                      alt="Speakers"
+                      className=" mx-auto -mt-60 z-10 opacity-100"
+                    />
+                    <div className="space-y-[8px] z-50 text-white -mt-[90px] -ml-10">
+                      <h2 className="text-[24px] font-semibold">Speakers</h2>
+                      <p className="text-[14px]">Amazon wireless speakers</p>
+                      <p className="text-[16px] font-medium underline">
+                        Shop Now
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-black w-[270px] h-[284px]">
+                  <div className="flex flex-col items-center justify-center">
+                    <div className="rounded-full bg-[#D9D9D9] w-[260px] h-[274px] blur-[60px] opacity-30"></div>
+                    <Image
+                      src="/images/gucciperfume.png"
+                      width={201}
+                      height={203}
+                      alt="Speakers"
+                      className=" mx-auto -mt-60 z-10 opacity-100"
+                    />
+                    <div className="space-y-[8px] z-50 text-white -mt-[90px] -ml-10">
+                      <h2 className="text-[24px] font-semibold">Perfume</h2>
+                      <p className="text-[14px]">GUCCI INTENSE OUD EDP</p>
+                      <p className="text-[16px] font-medium underline">
+                        Shop Now
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/*-------------------------------------------------------------------------------------------------------------------*/}
@@ -992,7 +1072,7 @@ export default function Home() {
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
         {/*-------Bottom Arrow---------*/}
-        <div className="mb-[32px] flex">
+        <div className="mb-[32px] flex justify-end mr-28">
           <div className="rounded-full bg-[#F5F5F5] h-[46px] w-[46px] flex items-center justify-center">
             <ArrowUp className="h-[24px] w-[24px]" />
           </div>
