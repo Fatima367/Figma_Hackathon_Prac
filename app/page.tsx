@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <main className="w-screen">
       <hr className="mt-[16px]" />
-      <div className="flex flex-col">
+      <div className="flex flex-col mx-auto">
         {/*-------Hero Section---------*/}
         <div className="flex flex-col items-center justify-center">
           <div className="flex">
             {/*Left*/}
-            <div className="flex flex-row">
+            <div className="lg:flex lg:flex-row lg:visible hidden">
               <div className="flex flex-col space-y-[16px] mr-[16px] mt-[40px]">
                 <div className="space-x-[51px] flex">
                   <p className="text-[16px]">Women’s Fashion</p>
@@ -84,9 +84,9 @@ export default function Home() {
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
         {/*-------Flash Sales Section---------*/}
-        <div className="p-[80px] space-y-[40px]">
+        <div className="p-[80px] space-y-[40px] flex flex-col">
           <div className="space-x-[470px] flex">
-            <div className="space-x-[87px] flex flex-row items-center">
+            <div className="lg:space-x-[87px] lg:flex lg:flex-row lg:items-center grid grid-cols-1">
               <div className="space-y-[24px] flex flex-col">
                 <div className="space-x-[16px] flex">
                   <div className="bg-[#DB4444] h-[40px] w-[20px] rounded"></div>
@@ -139,7 +139,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex items-stretch justify-center space-x-[30px] mt-[60px] mb-[140px] -mr-48">
+          <div className=" lg:flex lg:items-stretch lg:justify-center lg:space-x-[30px] mt-[60px] mb-[140px] -mr-48
+          grid grid-cols-1 space-y-8 lg:space-y-0">
             <div className="space-y-[16px]">
               <Image
                 src="/images/riimage.png"
@@ -295,10 +296,10 @@ export default function Home() {
         <div className="mt-[60px] mb-[80px] w-11/12 h-[1px] bg-black mx-auto opacity-30"></div>
 
         {/*-------Browse By Category---------*/}
-
         <div className="space-y-[60px] flex flex-col items-start justify-between mx-auto">
-          <div className="flex space-x-[691px] items-center justify-stretch">
-            <div className="space-y-[24px] flex flex-col">
+          <div className="lg:flex lg:space-x-[691px] lg:items-center lg:justify-stretch grid
+          grid-cols-1 space-y-3">
+            <div className="lg:space-y-[24px] lg:flex lg:flex-col grid space-y-4">
               <div className="space-x-[16px] flex">
                 <div className="bg-[#DB4444] h-[40px] w-[20px] rounded"></div>
                 <p className="font-semibold text-[16px] text-[#DB4444] my-auto">
@@ -317,7 +318,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex space-x-[30px]">
+          <div className="lg:flex lg:space-x-[30px] grid grid-cols-1 mx-auto space-y-3">
             <div
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px]"
@@ -433,7 +434,7 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="flex items-center justify-center gap-[30px]">
+          <div className="lg:flex lg:items-center lg:justify-center lg:gap-[30px] grid grid-cols-1 space-y-6">
             <div className="space-y-[16px]">
               <Image
                 src="/images/riimage.png"
@@ -554,8 +555,8 @@ export default function Home() {
 
         {/*----------------*/}
         <div
-          className="flex space-x-[65px] bg-black items-center justify-center mx-auto mb-[71px]
-            h-[500px] w-10/12"
+          className="lg:flex lg:space-x-[65px] bg-black items-center justify-center mx-auto mb-[71px]
+            lg:h-[500px] lg:w-10/12 "
         >
           <div className="flex flex-col space-y-[32px] items-start justify-between">
             <p className="text-[16px] font-semibold text-[#00FF66]">
@@ -640,7 +641,8 @@ export default function Home() {
           </div>
 
           <div className="space-y-[60px]">
-            <div className="flex items-center justify-center gap-[30px] mt-[60px] mb-[140px]">
+            <div className="lg:flex items-center justify-center lg:gap-[30px] mt-[60px] mb-[140px]
+            grid grid-cols-1 space-y-6">
               <div className="space-y-[16px]">
                 <Image
                   src="/images/riimage.png"
@@ -770,7 +772,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex items-center justify-center gap-[30px] mt-[60px] mb-[140px]">
+            <div className="lg:flex items-center justify-center lg:gap-[30px] mt-[60px] mb-[140px] 
+            grid grid-cols-1 space-y-6">
               <div className="space-y-[16px]">
                 <Image
                   src="/images/riimage.png"
@@ -924,7 +927,7 @@ export default function Home() {
             <h2 className="text-[36px] font-semibold">New Arrival</h2>
           </div>
 
-          <div className="space-x-[30px] flex items-start justify-between">
+          <div className="lg:space-x-[30px] lg:flex items-start justify-between grid">
             <div className="bg-black rounded w-[570px] h-[645px]">
               <Image
                 src="/images/ps5.png"
@@ -944,7 +947,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col space-y-[32px]">
-              <div className="rounded bg-[#0D0D0D] flex w-[570px] -space-x-[141px]">
+              <div className="rounded bg-[#0D0D0D] lg:flex lg:w-[570px] lg:mt-0 mt-5 -space-x-[141px] grid w-[350px]">
                 <div className="space-y-[16px] z-10 text-white ml-6 mt-24 mb-5">
                   <h2 className="text-[24px] font-semibold">
                     Women’s Collections
@@ -963,7 +966,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="space-x-[30px] flex">
+              <div className="lg:space-x-[30px] lg:flex grid space-y-5">
                 <div className="bg-black w-[270px] h-[284px]">
                   <div className="flex flex-col items-center justify-center">
                     <div className="rounded-full bg-[#D9D9D9] w-[260px] h-[274px] blur-[70px] opacity-30"></div>
@@ -1011,7 +1014,7 @@ export default function Home() {
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
         {/*-------Last Section---------*/}
-        <div className=" flex space-x-[88px] mt-[140px] mb-[140px] mx-auto ">
+        <div className="lg:flex lg:space-x-[88px] mt-[140px] mb-[140px] mx-auto grid grid-cols-1 space-y-10">
           <div
             className="flex flex-col items-center justify-center
        space-y-[24px]"
