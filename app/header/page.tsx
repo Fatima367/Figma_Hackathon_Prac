@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header
-      className="mt-10 h-[38px] bg-white flex flex-row items-center 
-    justify-center space-x-[148px] mx-auto pb-9 pt-2 border-b border-b-gray-200"
+      className="mt-8 bg-white flex flex-row items-center 
+    justify-center space-x-36 mx-auto pb-4 border-b border-b-gray-200"
     >
-      <div className="space-x-[190px] flex items-center justify-center">
+      <div className="space-x-48 flex items-center justify-center">
         <Image src="/images/Exclusive.png" height={24} width={118} alt="logo" />
-        <div className="space-x-[48px] text-black flex items-center justify-center">
+        <div className="space-x-12 text-black flex items-center justify-center">
           <p className="text-base">Home</p>
           <p className="text-base">Contact</p>
           <p className="text-base">About</p>
@@ -17,7 +17,7 @@ export default function Header() {
       </div>
 
       <div className="space-x-6 flex justify-center items-center">
-        <div className="space-y-[10px] pl-[20px] pr-3 py-[7px] bg-[#F5F5F5] rounded">
+        <div className="space-y-2 pl-5 pr-3 py-2 bg-[#F5F5F5] rounded">
           <div className="space-x-[34px] flex flex-row items-center justify-center">
             <p className="text-3">What are you looking for?</p>
             <Image
