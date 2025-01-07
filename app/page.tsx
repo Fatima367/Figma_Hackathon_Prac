@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-screen">
-      <hr className="mt-4" />
+    <main className="  ">
+       
       <div className="flex flex-col mx-auto">
         {/*-------Hero Section---------*/}
         <div className="flex flex-col items-center justify-center ">

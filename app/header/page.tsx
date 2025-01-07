@@ -2,9 +2,10 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="mt-10 h-[38px] w-[1170px] bg-white flex flex-row items-center 
-    justify-center space-x-[148px] mx-auto">
-
+    <header
+      className="mt-10 h-[38px] bg-white flex flex-row items-center 
+    justify-center space-x-[148px] mx-auto pb-9 pt-2 border-b border-b-gray-200"
+    >
       <div className="space-x-[190px] flex items-center justify-center">
         <Image src="/images/Exclusive.png" height={24} width={118} alt="logo" />
         <div className="space-x-[48px] text-black flex items-center justify-center">

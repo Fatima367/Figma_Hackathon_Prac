@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function ProductDetailsPage() {
   return (
-    <div className="w-screen">
-      <hr className="mt-4" />
+    <div className="  ">
+       
       <div className="flex flex-col items-start justify-between mx-auto">
       <div className="p-20">
         <div className="space-x-3 flex ml-0">

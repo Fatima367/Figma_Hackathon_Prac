@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function SignupPage() {
     return(
-        <div className="w-screen">
-            <hr className="mt-4" />
+        <div className="  ">
+             
             <div className="mt-[60px] w-[1305px] h-[781px] space-x-[129px] mb-36 flex">
                 <Image src="/images/Side Image.png" height={781} width={805} alt="image" />
                 <div className="space-y-[48px] mx-[129px] my-auto">

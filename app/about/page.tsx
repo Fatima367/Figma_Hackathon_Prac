@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
     return(
-        <div className="w-screen">
-           <hr className="mt-4" />
+        <div className="  ">
+            
 
            <main className="flex flex-col items-start justify-between">
 

@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Wishlist() {
   return (
-    <div className="w-screen">
-      <hr className="mt-4" />
+    <div className="  ">
+       
 
       <main className="flex items-start justify-between">
-        <div className="space-y-[80px] p-20 mb-36 mx-auto">
+        <div className="space-y-20 p-20 mb-36 mx-auto">
           <div className="space-y-[60px]">
             <div className="space-x-[835px] flex items-center justify-stretch">
               <p className="text-[20px]">Wishlist (4)</p>

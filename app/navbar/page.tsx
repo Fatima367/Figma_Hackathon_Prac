@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="h-[48px] w-screen bg-black flex justify-center items-center">
-      <div className="space-x-[231px] flex justify-center items-center">
+    <nav className="h-[48px] bg-black flex justify-center items-center">
+      <div className="space-x-[231px] flex justify-between items-center">
         <div className="space-x-[8px] items-center justify-center flex flex-row">
           <p className="text-sm text-white">
             Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!

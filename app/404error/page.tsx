@@ -1,7 +1,7 @@
 export default function Error() {
   return (
-    <div className="w-screen">
-      <hr className="mt-4" />
+    <div className="  ">
+       
       <div className="p-20">
         <div className="space-x-3 flex">
           <p className="text-sm opacity-50 underline">Home</p>
