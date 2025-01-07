@@ -16,7 +16,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="space-x-[24px] flex justify-center items-center">
+      <div className="space-x-6 flex justify-center items-center">
         <div className="space-y-[10px] pl-[20px] pr-3 py-[7px] bg-[#F5F5F5] rounded">
           <div className="space-x-[34px] flex flex-row items-center justify-center">
             <p className="text-3">What are you looking for?</p>

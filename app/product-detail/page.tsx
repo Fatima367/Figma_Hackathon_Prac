@@ -107,7 +107,7 @@ export default function ProductDetailsPage() {
 
           <hr className="mt-[24px]" />
 
-          <div className="flex items-center justify-center space-x-[24px]">
+          <div className="flex items-center justify-center space-x-6">
             <h1 className="text-[20px]"> Colours: </h1>
             <div className="space-x-[8px] flex items-center justify-center">
               <div
@@ -118,7 +118,7 @@ export default function ProductDetailsPage() {
             </div>
           </div>
 
-          <div className="space-x-[24px] mt-[24px] flex">
+          <div className="space-x-6 mt-[24px] flex">
             <h2 className="text-[20px]">Size: </h2>
             <div className="flex space-x-4">
               <div

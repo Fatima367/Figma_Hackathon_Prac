@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-black    lg:h-[440px] h-full bottom-0">
-      <div className="lg:flex lg:flex-row justify-between items-start p-[87px] grid grid-cols-1 space-y-8 lg:space-y-0">
+      <div className="lg:flex lg:flex-row justify-between items-start p-20 grid grid-cols-1 space-y-8 lg:space-y-0">
         <div className="space-y-4 flex flex-col">
           <div className="space-y-6">
             <div className="space-y-6">
@@ -16,7 +16,7 @@ export default function Footer() {
 
             <div
               className="border-[1.5px] border-[#FAFAFA] py-3 px-4 
-                    space-x-[32px] rounded flex items-center justify-center"
+                    space-x-7 rounded flex items-center justify-center"
             >
               <p className="text-base text-[#FAFAFA]"> Enter your email</p>
               <Image
@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="space-x-[24px] flex">
+          <div className="space-x-6 flex">
             <Image
               src="/images/Icon-Facebook.png"
               height={24}
@@ -127,7 +127,7 @@ export default function Footer() {
             justify-center mx-auto p-4 bg-black border-opacity-40"
       >
         <div className="space-x-3">
-          <div className="space-x-[6px] flex items-center justify-center">
+          <div className="space-x-2 flex items-center justify-center">
             <Image
               src="/images/icon-copyright.png"
               height={20}

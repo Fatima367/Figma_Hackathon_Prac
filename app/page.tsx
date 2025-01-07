@@ -37,7 +37,7 @@ export default function Home() {
             <div className="ml-[45px] mt-10 bg-black flex flex-col">
               <div className="flex items-center justify-center">
                 <div className="flex flex-col space-y-[20px] items-start justify-between ml-[49px] mb-[35px]">
-                  <div className="space-x-[24px] flex items-center justify-center mt-[49px]">
+                  <div className="space-x-6 flex items-center justify-center mt-[49px]">
                     <Image
                       src="/images/applelogo.png"
                       width={40}
@@ -86,7 +86,7 @@ export default function Home() {
         {/*-------Flash Sales Section---------*/}
         <div className="p-20 space-y-10 flex flex-col">
           <div className="space-x-[470px] flex">
-            <div className="lg:space-x-[87px] lg:flex lg:flex-row lg:items-center grid grid-cols-1">
+            <div className="lg:space-x-20 lg:flex lg:flex-row lg:items-center grid grid-cols-1">
               <div className="space-y-6 flex flex-col">
                 <div className="space-x-4 flex">
                   <div className="bg-[#DB4444] h-10 w-[20px] rounded"></div>
@@ -566,7 +566,7 @@ export default function Home() {
               Enhance Your <br /> Music Experience
             </p>
 
-            <div className="space-x-[24px] flex items-start justify-center">
+            <div className="space-x-6 flex items-start justify-center">
               <div className="rounded-full h-[62px] w-[62px] bg-white flex items-center justify-center">
                 <div className="flex flex-col items-center justify-center -space-y-1">
                   <p className="text-base font-semibold text-black">23</p>

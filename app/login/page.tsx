@@ -23,7 +23,7 @@ export default function LoginPage() {
                             </div>
                     </div>
                     </div>
-                    <div className="space-x-[87px] flex items-center justify-center">
+                    <div className="space-x-20 flex items-center justify-center">
                             <button className="w-[143px] h-[56px] px-12 py-4
                             space-x-8 bg-[#DB4444] rounded text-white text-base
                             font-medium">

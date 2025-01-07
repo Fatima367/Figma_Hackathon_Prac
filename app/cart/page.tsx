@@ -12,7 +12,7 @@ export default function Cart() {
         </div>
 
         <div className="flex flex-col mx-auto max-w-[80rem] items-center justify-center relative">
-          <div className="space-y-20 mt-20 flex items-center justify-between">
+          <div className="space-y-20 mt-20 flex items-center justify-between w-full">
             <div className="space-y-6">
               <div className="space-y-10 flex flex-col">
                 {/* Header Row */}
@@ -96,7 +96,7 @@ export default function Cart() {
                 </div>
               </div>
 
-              <div className="space-x-[47rem] flex items-center justify-between">
+              <div className="gap-[47rem] flex items-center justify-between w-full">
                 <button className="space-x-8 px-12 py-4 rounded ring-1 ring-black ring-opacity-50">
                   <p className="text-base font-medium">View All Products</p>
                 </button>
