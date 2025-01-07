@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="h-[48px] bg-black flex justify-center items-center">
-      <div className="space-x-[231px] flex justify-between items-center">
-        <div className="space-x-[8px] items-center justify-center flex flex-row">
+    <nav className="py-3 bg-black flex justify-center items-center mx-auto">
+      <div className="flex justify-between items-center w-3/5">
+        <div className="space-x-2 items-center justify-center flex flex-row">
           <p className="text-sm text-white">
             Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
           </p>

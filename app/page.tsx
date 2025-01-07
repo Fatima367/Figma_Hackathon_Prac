@@ -52,7 +52,7 @@ export default function Home() {
                     Up to 10% <br /> off Voucher
                   </h1>
 
-                  <div className="space-x-[8px] text-white flex items-center justify-center">
+                  <div className="space-x-2 text-white flex items-center justify-center">
                     <p className="text-base font-medium underline">
                       Shop Now
                     </p>
@@ -157,7 +157,7 @@ export default function Home() {
                     $160
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Five star.png"
                     height={20}
@@ -185,7 +185,7 @@ export default function Home() {
                     $1160
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Four star.png"
                     height={20}
@@ -215,7 +215,7 @@ export default function Home() {
                     $400
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Five star.png"
                     height={20}
@@ -243,7 +243,7 @@ export default function Home() {
                     $170
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Four Half Star.png"
                     height={20}
@@ -271,7 +271,7 @@ export default function Home() {
                     $170
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Four Half Star.png"
                     height={20}
@@ -308,7 +308,7 @@ export default function Home() {
               </div>
               <h2 className="text-[36px] font-semibold">Browse By Category</h2>
             </div>
-            <div className="space-x-[8px] flex">
+            <div className="space-x-2 flex">
               <div className="rounded-full bg-[#F5F5F5] h-[46px] w-[46px] flex items-center justify-center">
                 <ArrowLeft className="h-[24px] w-[24px]" />
               </div>
@@ -451,7 +451,7 @@ export default function Home() {
                     $160
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Five star.png"
                     height={20}
@@ -479,7 +479,7 @@ export default function Home() {
                     $1160
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Four star.png"
                     height={20}
@@ -509,7 +509,7 @@ export default function Home() {
                     $400
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Five star.png"
                     height={20}
@@ -537,7 +537,7 @@ export default function Home() {
                     $170
                   </p>
                 </div>
-                <div className="flex space-x-[8px]">
+                <div className="flex space-x-2">
                   <Image
                     src="/images/Four Half Star.png"
                     height={20}
@@ -630,7 +630,7 @@ export default function Home() {
                 Explore Our Products
               </h2>
             </div>
-            <div className="space-x-[8px] flex">
+            <div className="space-x-2 flex">
               <div className="rounded-full bg-[#F5F5F5] h-[46px] w-[46px] flex items-center justify-center">
                 <ArrowLeft className="h-[24px] w-[24px]" />
               </div>
@@ -663,7 +663,7 @@ export default function Home() {
                       $160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -695,7 +695,7 @@ export default function Home() {
                       $1160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four star.png"
                       height={20}
@@ -727,7 +727,7 @@ export default function Home() {
                       $400
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -759,7 +759,7 @@ export default function Home() {
                       $170
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four Half Star.png"
                       height={20}
@@ -794,7 +794,7 @@ export default function Home() {
                       $160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -826,7 +826,7 @@ export default function Home() {
                       $1160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four star.png"
                       height={20}
@@ -858,7 +858,7 @@ export default function Home() {
                       $400
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -890,7 +890,7 @@ export default function Home() {
                       $170
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four Half Star.png"
                       height={20}

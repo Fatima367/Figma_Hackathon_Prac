@@ -39,7 +39,7 @@ export default function Wishlist() {
                       $160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -71,7 +71,7 @@ export default function Wishlist() {
                       $1160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four star.png"
                       height={20}
@@ -103,7 +103,7 @@ export default function Wishlist() {
                       $400
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -135,7 +135,7 @@ export default function Wishlist() {
                       $170
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four Half Star.png"
                       height={20}
@@ -184,7 +184,7 @@ export default function Wishlist() {
                       $160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -216,7 +216,7 @@ export default function Wishlist() {
                       $1160
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four star.png"
                       height={20}
@@ -248,7 +248,7 @@ export default function Wishlist() {
                       $400
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Five star.png"
                       height={20}
@@ -280,7 +280,7 @@ export default function Wishlist() {
                       $170
                     </p>
                   </div>
-                  <div className="flex space-x-[8px]">
+                  <div className="flex space-x-2">
                     <Image
                       src="/images/Four Half Star.png"
                       height={20}

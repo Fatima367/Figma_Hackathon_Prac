@@ -3,16 +3,16 @@ import Image from "next/image";
 
 export default function Cart() {
   return (
-    <div className="p-20">
-      <section className="flex flex-col mx-auto w-full">
-        <div className="space-x-3 flex">
+    <div className="">
+      <section className="flex flex-col mx-auto w-full py-20 relative">
+        <div className="space-x-3 flex px-20">
           <p className="text-sm opacity-50 ">Home</p>
           <p className="text-sm opacity-50">/</p>
           <p className="text-sm">Cart</p>
         </div>
 
-        <div className="flex flex-col mx-auto max-w-[80rem] items-center justify-center relative">
-          <div className="space-y-20 mt-20 flex items-center justify-between w-full">
+        <div className="flex flex-col mx-auto items-center justify-center px-5">
+          <div className="mt-20 space-y-20 flex items-center justify-between w-full">
             <div className="space-y-6">
               <div className="space-y-10 flex flex-col">
                 {/* Header Row */}
@@ -96,11 +96,11 @@ export default function Cart() {
                 </div>
               </div>
 
-              <div className="gap-[47rem] flex items-center justify-between w-full">
-                <button className="space-x-8 px-12 py-4 rounded ring-1 ring-black ring-opacity-50">
+              <div className="gap-[43rem] flex items-center justify-between w-full">
+                <button className="gap-8 px-5 w-52 h-14 rounded ring-1 ring-black ring-opacity-50">
                   <p className="text-base font-medium">View All Products</p>
                 </button>
-                <button className="space-x-8 px-12 py-4 rounded ring-1 ring-black ring-opacity-50">
+                <button className="gap-8 px-5 h-14 rounded ring-1 ring-black ring-opacity-50 w-40">
                   <p className="text-base font-medium">Update Cart</p>
                 </button>
               </div>
