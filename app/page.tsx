@@ -7,7 +7,7 @@ export default function Home() {
       <hr className="mt-4" />
       <div className="flex flex-col mx-auto">
         {/*-------Hero Section---------*/}
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center ">
           <div className="flex">
             {/*Left*/}
             <div className="lg:flex lg:flex-row lg:visible hidden">
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="p-20 space-y-10 flex flex-col">
           <div className="space-x-[470px] flex">
             <div className="lg:space-x-[87px] lg:flex lg:flex-row lg:items-center grid grid-cols-1">
-              <div className="space-y-[24px] flex flex-col">
+              <div className="space-y-6 flex flex-col">
                 <div className="space-x-4 flex">
                   <div className="bg-[#DB4444] h-10 w-[20px] rounded"></div>
                   <p className="font-semibold text-base text-[#DB4444] my-auto">
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" lg:flex lg:items-stretch lg:justify-center lg:space-x-[30px] mt-[60px] mb-36 -mr-48
+          <div className=" lg:flex lg:items-stretch lg:justify-center lg:space-x-7 mt-[60px] mb-36 -mr-48
           grid grid-cols-1 space-y-8 lg:space-y-0">
             <div className="space-y-4">
               <Image
@@ -149,7 +149,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">HAVIT HV-G92 Gamepad</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$120</p>
@@ -177,7 +177,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">AK-900 Wired Keyboard</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$960</p>
@@ -205,7 +205,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">
                   IPS LCD Gaming Monitor
                 </p>
@@ -235,7 +235,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">RGB liquid CPU Cooler</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$160</p>
@@ -263,7 +263,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">RGB liquid CPU Cooler</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$160</p>
@@ -299,7 +299,7 @@ export default function Home() {
         <div className="space-y-[60px] flex flex-col items-start justify-between mx-auto">
           <div className="lg:flex lg:space-x-[691px] lg:items-center lg:justify-stretch grid
           grid-cols-1 space-y-3">
-            <div className="lg:space-y-[24px] lg:flex lg:flex-col grid space-y-4">
+            <div className="lg:space-y-6 lg:flex lg:flex-col grid space-y-4">
               <div className="space-x-4 flex">
                 <div className="bg-[#DB4444] h-10 w-[20px] rounded"></div>
                 <p className="font-semibold text-base text-[#DB4444] my-auto">
@@ -318,12 +318,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:flex lg:space-x-[30px] grid grid-cols-1 mx-auto space-y-3">
+          <div className="lg:flex lg:space-x-7 grid grid-cols-1 mx-auto space-y-3">
             <div
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px]"
             >
-              <div className="flex flex-col space-y-[24px] items-center justify-center">
+              <div className="flex flex-col space-y-6 items-center justify-center">
                 <Image
                   src="/images/Category-CellPhone.png"
                   height={56}
@@ -338,7 +338,7 @@ export default function Home() {
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px]"
             >
-              <div className="flex flex-col space-y-[24px] items-center justify-center">
+              <div className="flex flex-col space-y-6 items-center justify-center">
                 <Image
                   src="/images/Category-Computer.png"
                   height={56}
@@ -353,7 +353,7 @@ export default function Home() {
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px]"
             >
-              <div className="flex flex-col space-y-[24px] items-center justify-center">
+              <div className="flex flex-col space-y-6 items-center justify-center">
                 <Image
                   src="/images/Category-SmartWatch.png"
                   height={56}
@@ -368,7 +368,7 @@ export default function Home() {
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px] bg-[#DB4444] shadow-sm"
             >
-              <div className="flex flex-col space-y-[24px] items-center justify-center">
+              <div className="flex flex-col space-y-6 items-center justify-center">
                 <Image
                   src="/images/Category-Camera.png"
                   height={56}
@@ -383,7 +383,7 @@ export default function Home() {
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px]"
             >
-              <div className="flex flex-col space-y-[24px] items-center justify-center">
+              <div className="flex flex-col space-y-6 items-center justify-center">
                 <Image
                   src="/images/Category-HeadPhone.png"
                   height={56}
@@ -398,7 +398,7 @@ export default function Home() {
               className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[170px] h-[145px]"
             >
-              <div className="flex flex-col space-y-[24px] items-center justify-center">
+              <div className="flex flex-col space-y-6 items-center justify-center">
                 <Image
                   src="/images/Category-Gamepad.png"
                   height={56}
@@ -443,7 +443,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">HAVIT HV-G92 Gamepad</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$120</p>
@@ -471,7 +471,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">AK-900 Wired Keyboard</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$960</p>
@@ -499,7 +499,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">
                   IPS LCD Gaming Monitor
                 </p>
@@ -529,7 +529,7 @@ export default function Home() {
                 alt="related-item"
               />
 
-              <div className="space-y-[8px]">
+              <div className="space-y-2">
                 <p className="text-base font-medium">RGB liquid CPU Cooler</p>
                 <div className="flex space-x-3">
                   <p className="text-base text-[#DB4444] font-medium">$160</p>
@@ -558,7 +558,7 @@ export default function Home() {
           className="lg:flex lg:space-x-[65px] bg-black items-center justify-center mx-auto mb-[71px]
             lg:h-[500px] lg:w-10/12 "
         >
-          <div className="flex flex-col space-y-[32px] items-start justify-between">
+          <div className="flex flex-col space-y-8 items-start justify-between">
             <p className="text-base font-semibold text-[#00FF66]">
               Categories
             </p>
@@ -619,7 +619,7 @@ export default function Home() {
         {/*-------Explore Our Products---------*/}
         <div className="space-y-[60px] flex flex-col items-start justify-between mx-auto">
           <div className="flex space-x-[691px] items-center justify-stretch">
-            <div className="space-y-[24px] flex flex-col">
+            <div className="space-y-6 flex flex-col">
               <div className="space-x-4 flex">
                 <div className="bg-[#DB4444] h-10 w-[20px] rounded"></div>
                 <p className="font-semibold text-base text-[#DB4444] my-auto">
@@ -651,7 +651,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     HAVIT HV-G92 Gamepad
                   </p>
@@ -683,7 +683,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     AK-900 Wired Keyboard
                   </p>
@@ -715,7 +715,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     IPS LCD Gaming Monitor
                   </p>
@@ -747,7 +747,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     RGB liquid CPU Cooler
                   </p>
@@ -782,7 +782,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     HAVIT HV-G92 Gamepad
                   </p>
@@ -814,7 +814,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     AK-900 Wired Keyboard
                   </p>
@@ -846,7 +846,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     IPS LCD Gaming Monitor
                   </p>
@@ -878,7 +878,7 @@ export default function Home() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     RGB liquid CPU Cooler
                   </p>
@@ -917,7 +917,7 @@ export default function Home() {
 
         {/*-------New Arrival---------*/}
         <div className="space-y-[60px] flex flex-col items-start justify-between mx-auto">
-          <div className="space-y-[24px] flex flex-col">
+          <div className="space-y-6 flex flex-col">
             <div className="space-x-4 flex">
               <div className="bg-[#DB4444] h-10 w-[20px] rounded"></div>
               <p className="font-semibold text-base text-[#DB4444] my-auto">
@@ -927,7 +927,7 @@ export default function Home() {
             <h2 className="text-[36px] font-semibold">New Arrival</h2>
           </div>
 
-          <div className="lg:space-x-[30px] lg:flex items-start justify-between grid">
+          <div className="lg:space-x-7 lg:flex items-start justify-between grid">
             <div className="bg-black rounded w-[570px] h-[645px]">
               <Image
                 src="/images/ps5.png"
@@ -946,7 +946,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-[32px]">
+            <div className="flex flex-col space-y-8">
               <div className="rounded bg-[#0D0D0D] lg:flex lg:w-[570px] lg:mt-0 mt-5 -space-x-[141px] grid w-[350px]">
                 <div className="space-y-4 z-10 text-white ml-6 mt-24 mb-5">
                   <h2 className="text-[24px] font-semibold">
@@ -966,7 +966,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="lg:space-x-[30px] lg:flex grid space-y-5">
+              <div className="lg:space-x-7 lg:flex grid space-y-5">
                 <div className="bg-black w-[270px] h-[284px]">
                   <div className="flex flex-col items-center justify-center">
                     <div className="rounded-full bg-[#D9D9D9] w-[260px] h-[274px] blur-[70px] opacity-30"></div>
@@ -977,7 +977,7 @@ export default function Home() {
                       alt="Speakers"
                       className=" mx-auto -mt-60 z-10 opacity-100"
                     />
-                    <div className="space-y-[8px] z-50 text-white -mt-[90px] -ml-10">
+                    <div className="space-y-2 z-50 text-white -mt-[90px] -ml-10">
                       <h2 className="text-[24px] font-semibold">Speakers</h2>
                       <p className="text-sm">Amazon wireless speakers</p>
                       <p className="text-base font-medium underline">
@@ -997,7 +997,7 @@ export default function Home() {
                       alt="Speakers"
                       className=" mx-auto -mt-60 z-10 opacity-100"
                     />
-                    <div className="space-y-[8px] z-50 text-white -mt-[90px] -ml-10">
+                    <div className="space-y-2 z-50 text-white -mt-[90px] -ml-10">
                       <h2 className="text-[24px] font-semibold">Perfume</h2>
                       <p className="text-sm">GUCCI INTENSE OUD EDP</p>
                       <p className="text-base font-medium underline">
@@ -1014,10 +1014,10 @@ export default function Home() {
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
         {/*-------Last Section---------*/}
-        <div className="lg:flex lg:space-x-[88px] mt-[140px] mb-36 mx-auto grid grid-cols-1 space-y-10">
+        <div className="lg:flex lg:space-x-20 mt-[140px] mb-36 mx-auto grid grid-cols-1 space-y-10">
           <div
             className="flex flex-col items-center justify-center
-       space-y-[24px]"
+       space-y-6"
           >
             <Image
               src="/images/Services5.png"
@@ -1025,7 +1025,7 @@ export default function Home() {
               width={80}
               alt="services"
             />
-            <div className="space-y-[8px] flex flex-col items-center justify-center">
+            <div className="space-y-2 flex flex-col items-center justify-center">
               <h2 className="text-[20px] font-semibold">
                 FREE AND FAST DELIVERY{" "}
               </h2>
@@ -1037,7 +1037,7 @@ export default function Home() {
 
           <div
             className="flex flex-col items-center justify-center
-        space-y-[24px]"
+        space-y-6"
           >
             <Image
               src="/images/Services6.png"
@@ -1045,7 +1045,7 @@ export default function Home() {
               width={80}
               alt="services"
             />
-            <div className="space-y-[8px] flex flex-col items-center justify-center">
+            <div className="space-y-2 flex flex-col items-center justify-center">
               <h2 className="text-[20px] font-semibold">
                 24/7 CUSTOMER SERVICE
               </h2>
@@ -1055,7 +1055,7 @@ export default function Home() {
 
           <div
             className="flex flex-col items-center justify-center
-        space-y-[24px]"
+        space-y-6"
           >
             <Image
               src="/images/Services7.png"
@@ -1063,7 +1063,7 @@ export default function Home() {
               width={80}
               alt="services"
             />
-            <div className="space-y-[8px] flex flex-col items-center justify-center">
+            <div className="space-y-2 flex flex-col items-center justify-center">
               <h2 className="text-[20px] font-semibold">
                 MONEY BACK GUARANTEE
               </h2>

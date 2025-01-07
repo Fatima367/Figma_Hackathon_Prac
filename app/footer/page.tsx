@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className="bg-black w-screen lg:h-[440px] h-full bottom-0">
       <div className="lg:flex lg:flex-row justify-between items-start p-[87px] grid grid-cols-1 space-y-8 lg:space-y-0">
         <div className="space-y-4 flex flex-col">
-          <div className="space-y-[24px]">
-            <div className="space-y-[24px]">
+          <div className="space-y-6">
+            <div className="space-y-6">
               <h1 className="text-[24px] font-bold text-white"> Exclusive</h1>
               <h2 className="text-[20px] font-medium text-white">Subscribe</h2>
             </div>
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-[24px]">
+        <div className="flex flex-col space-y-6">
           <h2 className="text-[24px] font-medium text-white">Support</h2>\{" "}
           <div className="space-y-4">
             <p className="text-base text-white">
@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-[24px]">
+        <div className="flex flex-col space-y-6">
           <h2 className="text-[20px] font-medium text-white">Account</h2>
           <div className="space-y-4">
             <p className="text-base text-white">My Account</p>
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-[24px]">
+        <div className="flex flex-col space-y-6">
           <h2 className="text-[20px] font-medium text-white">Quick Link</h2>
           <div className="space-y-4">
             <p className="text-base text-white">Privacy Policy</p>
@@ -61,10 +61,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-[24px]">
-          <div className="space-y-[24px]">
+        <div className="flex flex-col space-y-6">
+          <div className="space-y-6">
             <h2 className="text-[20px] font-medium text-white">Download App</h2>
-            <div className="space-y-[8px]">
+            <div className="space-y-2">
               <p className="text-3 font-medium text-[#FAFAFA]">
                 Save $3 with App New User Only
               </p>

@@ -16,7 +16,7 @@ export default function About() {
             </div>
 
 
-            <div className="flex flex-row space-x-[75px]">
+            <div className="flex flex-row space-x-16">
 
               <div className="flex flex-col items-start justify-between space-y-10 ml-20">
                 <h1 className="text-[54px] font-semibold">Our Story</h1>
@@ -38,12 +38,12 @@ export default function About() {
 
             </div>
 
-            <div className="mt-[142px] ml-20 flex space-x-[30px] mb-36">
+            <div className="mt-36 ml-20 flex space-x-7 mb-36">
 
 
             <div className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[270px] h-[230px]">
-             <div className="flex flex-col space-y-[24px] items-center justify-center">
+             <div className="flex flex-col space-y-6 items-center justify-center">
              <Image src="/images/Services.png" height={80} width={80} alt="services"/>
              <div className="space-y-3 flex flex-col items-center justify-center">
              <h2 className="text-[32px] font-bold">10.5k </h2>
@@ -56,7 +56,7 @@ export default function About() {
 
             <div className="flex flex-col items-center justify-center rounded shadow-md bg-[#DB4444]
              w-[270px] h-[230px] text-white">
-             <div className="flex flex-col space-y-[24px] items-center justify-center">
+             <div className="flex flex-col space-y-6 items-center justify-center">
              <Image src="/images/Services2.png" height={80} width={80} alt="services"/>
              <div className="space-y-3 flex flex-col items-center justify-center">
              <h2 className="text-[32px] font-bold">35k</h2>
@@ -69,7 +69,7 @@ export default function About() {
 
             <div className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[270px] h-[230px]">
-             <div className="flex flex-col space-y-[24px] items-center justify-center">
+             <div className="flex flex-col space-y-6 items-center justify-center">
              <Image src="/images/Services3.png" height={80} width={80} alt="services"/>
              <div className="space-y-3 flex flex-col items-center justify-center">
              <h2 className="text-[32px] font-bold">45.5k </h2>
@@ -82,7 +82,7 @@ export default function About() {
 
             <div className="flex flex-col items-center justify-center rounded ring-1 ring-black ring-opacity-30
              w-[270px] h-[230px]">
-             <div className="flex flex-col space-y-[24px] items-center justify-center">
+             <div className="flex flex-col space-y-6 items-center justify-center">
              <Image src="/images/Services4.png" height={80} width={80} alt="services"/>
              <div className="space-y-3 flex flex-col items-center justify-center">
              <h2 className="text-[32px] font-bold">25k </h2>
@@ -94,14 +94,14 @@ export default function About() {
             </div>
 
 
-            <div className="ml-20 flex space-x-[30px] mb-36">
+            <div className="ml-20 flex space-x-7 mb-36">
 
-             <div className="space-y-[32px] flex flex-col">
+             <div className="space-y-8 flex flex-col">
               <div className="bg-[#F5F5F5] h-[430px] w-[370px] flex items-baseline justify-center">
               <Image src="/images/tomcruise.png" width={236} height={391} alt="tom-cruise" className="mt-8"/>
               </div>
               <div className="flex flex-col space-y-4">
-                <div className="flex flex-col space-y-[8px]">
+                <div className="flex flex-col space-y-2">
                 <h2 className="font-medium text-[32px]">Tom Cruise</h2>
                 <p className=" text-base">Founder & Chairman</p>
                 </div>
@@ -114,12 +114,12 @@ export default function About() {
              </div>
 
 
-             <div className="space-y-[32px] flex flex-col">
+             <div className="space-y-8 flex flex-col">
               <div className="bg-[#F5F5F5] h-[430px] w-[370px] flex items-baseline justify-center">
               <Image src="/images/emmawatson.png" width={294} height={397} alt="emma-watson" className="mt-8"/>
               </div>
               <div className="flex flex-col space-y-4">
-                <div className="flex flex-col space-y-[8px]">
+                <div className="flex flex-col space-y-2">
                 <h2 className="font-medium text-[32px]">Emma Watson</h2>
                 <p className=" text-base">Managing Director</p>
                 </div>
@@ -132,12 +132,12 @@ export default function About() {
              </div>
 
 
-             <div className="space-y-[32px] flex flex-col">
+             <div className="space-y-8 flex flex-col">
               <div className="bg-[#F5F5F5] h-[430px] w-[370px] flex items-baseline justify-center">
               <Image src="/images/willsmith.png" width={326} height={392} alt="will-smith" className="mt-8"/>
               </div>
               <div className="flex flex-col space-y-4">
-                <div className="flex flex-col space-y-[8px]">
+                <div className="flex flex-col space-y-2">
                 <h2 className="font-medium text-[32px]">Will Smith</h2>
                 <p className=" text-base">Product Designer</p>
                 </div>
@@ -157,13 +157,13 @@ export default function About() {
 
 
 
-            <div className=" flex space-x-[88px] mb-36 mx-auto " >
+            <div className=" flex space-x-20 mb-36 mx-auto " >
 
 
             <div className="flex flex-col items-center justify-center
-              space-y-[24px]">
+              space-y-6">
              <Image src="/images/Services5.png" height={80} width={80} alt="services"/>
-             <div className="space-y-[8px] flex flex-col items-center justify-center">
+             <div className="space-y-2 flex flex-col items-center justify-center">
              <h2 className="text-[20px] font-semibold">FREE AND FAST DELIVERY </h2>
              <p className="text-sm ">Free delivery for all orders over $140</p>
              </div>
@@ -172,9 +172,9 @@ export default function About() {
 
 
             <div className="flex flex-col items-center justify-center
-             space-y-[24px]">
+             space-y-6">
              <Image src="/images/Services6.png" height={80} width={80} alt="services"/>
-             <div className="space-y-[8px] flex flex-col items-center justify-center">
+             <div className="space-y-2 flex flex-col items-center justify-center">
              <h2 className="text-[20px] font-semibold">24/7 CUSTOMER SERVICE</h2>
              <p className="text-sm ">Friendly 24/7 customer support</p>
              </div>
@@ -183,9 +183,9 @@ export default function About() {
 
 
             <div className="flex flex-col items-center justify-center
-              space-y-[24px]">
+              space-y-6">
              <Image src="/images/Services7.png" height={80} width={80} alt="services"/>
-             <div className="space-y-[8px] flex flex-col items-center justify-center">
+             <div className="space-y-2 flex flex-col items-center justify-center">
              <h2 className="text-[20px] font-semibold">MONEY BACK GUARANTEE</h2>
              <p className="text-sm ">We reurn money within 30 days</p>
              </div>

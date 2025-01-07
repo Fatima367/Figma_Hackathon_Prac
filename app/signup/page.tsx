@@ -7,21 +7,21 @@ export default function SignupPage() {
             <div className="mt-[60px] w-[1305px] h-[781px] space-x-[129px] mb-36 flex">
                 <Image src="/images/Side Image.png" height={781} width={805} alt="image" />
                 <div className="space-y-[48px] mx-[129px] my-auto">
-                    <div className="space-y-[24px] flex flex-col items-start my-auto">
+                    <div className="space-y-6 flex flex-col items-start my-auto">
                         <h2 className="text-[36px] font-medium"> Create an account</h2>
                         <p className="text-base">Enter your details below</p>
                     </div>
                     <div className="space-y-10">
                         <div className="space-y-10">
-                            <div className="space-y-[8px]">
+                            <div className="space-y-2">
                             <p className="text-base">Name</p>
                             <hr />
                             </div>
-                            <div className="space-y-[8px]">
+                            <div className="space-y-2">
                             <p className="text-base">Email or Phone Number</p>
                             <hr />
                             </div>
-                            <div className="space-y-[8px]">
+                            <div className="space-y-2">
                             <p className="text-base">Password</p>
                             <hr />
                             </div>
@@ -32,7 +32,7 @@ export default function SignupPage() {
                             font-medium">
                                 Create Account
                             </button>
-                            <div className="space-y-[32px]">
+                            <div className="space-y-8">
                                 <button className="w-[371px] h-[56px] px-[86px] py-4
                                  space-x-8 rounded text-white text-base
                                  font-medium ring-1 ring-black">

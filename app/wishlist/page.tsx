@@ -27,7 +27,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     HAVIT HV-G92 Gamepad
                   </p>
@@ -59,7 +59,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     AK-900 Wired Keyboard
                   </p>
@@ -91,7 +91,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     IPS LCD Gaming Monitor
                   </p>
@@ -123,7 +123,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     RGB liquid CPU Cooler
                   </p>
@@ -172,7 +172,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     HAVIT HV-G92 Gamepad
                   </p>
@@ -204,7 +204,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     AK-900 Wired Keyboard
                   </p>
@@ -236,7 +236,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     IPS LCD Gaming Monitor
                   </p>
@@ -268,7 +268,7 @@ export default function Wishlist() {
                   alt="related-item"
                 />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                   <p className="text-base font-medium">
                     RGB liquid CPU Cooler
                   </p>

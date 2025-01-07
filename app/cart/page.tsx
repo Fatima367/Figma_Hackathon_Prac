@@ -13,7 +13,7 @@ export default function Cart() {
         </div>
 
         <div className="space-y-[80px] mt-[80px] flex items-center justify-center">
-          <div className="space-y-[24px]">
+          <div className="space-y-6">
             <div className="space-y-10 flex flex-col">
               {/* Header Row */}
               <div className="rounded shadow p-6">

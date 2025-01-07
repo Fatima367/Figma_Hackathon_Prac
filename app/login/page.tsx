@@ -8,16 +8,16 @@ export default function LoginPage() {
                 <Image src="/images/Side Image.png" height={781} width={805} alt="image" />
                 <div className="space-y-10 mx-[129px] my-auto">
                     <div className="space-y-[48px]">
-                    <div className="space-y-[24px] flex flex-col items-start my-auto">
+                    <div className="space-y-6 flex flex-col items-start my-auto">
                         <h2 className="text-[36px] font-medium">Log in to Exclusive</h2>
                         <p className="text-base">Enter your details below</p>
                     </div>
                     <div className="space-y-10">
-                            <div className="space-y-[8px]">
+                            <div className="space-y-2">
                             <p className="text-base">Email or Phone Number</p>
                             <hr />
                             </div>
-                            <div className="space-y-[8px]">
+                            <div className="space-y-2">
                             <p className="text-base">Password</p>
                             <hr />
                             </div>

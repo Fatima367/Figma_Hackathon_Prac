@@ -231,7 +231,7 @@ export default function ProductDetailsPage() {
                 
                 <Image src="/images/riimage.png" width={270} height={250} alt="related-item" />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                     <p className="text-base font-medium">HAVIT HV-G92 Gamepad</p>
                     <div className="flex space-x-3">
                         <p className="text-base text-[#DB4444] font-medium">$120</p>
@@ -248,7 +248,7 @@ export default function ProductDetailsPage() {
 
                 <Image src="/images/riimage2.png" width={270} height={250} alt="related-item" />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                     <p className="text-base font-medium">AK-900 Wired Keyboard</p>
                     <div className="flex space-x-3">
                         <p className="text-base text-[#DB4444] font-medium">$960</p>
@@ -265,7 +265,7 @@ export default function ProductDetailsPage() {
 
                 <Image src="/images/riimage3.png" width={270} height={250} alt="related-item" />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                     <p className="text-base font-medium">IPS LCD Gaming Monitor</p>
                     <div className="flex space-x-3">
                         <p className="text-base text-[#DB4444] font-medium">$370</p>
@@ -282,7 +282,7 @@ export default function ProductDetailsPage() {
 
                 <Image src="/images/riimage4.png" width={270} height={250} alt="related-item" />
 
-                <div className="space-y-[8px]">
+                <div className="space-y-2">
                     <p className="text-base font-medium">RGB liquid CPU Cooler</p>
                     <div className="flex space-x-3">
                         <p className="text-base text-[#DB4444] font-medium">$160</p>
