@@ -4,9 +4,9 @@ export default function SignupPage() {
     return(
         <div className="  ">
              
-            <div className="mt-[60px] w-[1305px] h-[781px] space-x-[129px] mb-36 flex">
+            <div className="mt-14 w-full h-[781px] space-x-32 mb-36 flex">
                 <Image src="/images/Side Image.png" height={781} width={805} alt="image" />
-                <div className="space-y-[48px] mx-[129px] my-auto">
+                <div className="space-y-12 mx-32 my-auto">
                     <div className="space-y-6 flex flex-col items-start my-auto">
                         <h2 className="text-[36px] font-medium"> Create an account</h2>
                         <p className="text-base">Enter your details below</p>
@@ -27,13 +27,13 @@ export default function SignupPage() {
                             </div>
                         </div>
                         <div className="space-y-4">
-                            <button className="w-[371px] h-[56px] px-[122px] py-4
+                            <button className="w-[371px] h-14 px-[122px] py-4
                             space-x-8 bg-[#DB4444] rounded text-white text-base
                             font-medium">
                                 Create Account
                             </button>
                             <div className="space-y-8">
-                                <button className="w-[371px] h-[56px] px-[86px] py-4
+                                <button className="w-[371px] h-14 px-[86px] py-4
                                  space-x-8 rounded text-white text-base
                                  font-medium ring-1 ring-black">
                                    <div className="space-x-4 flex">

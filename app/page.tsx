@@ -7,7 +7,7 @@ export default function Home() {
        
       <div className="flex flex-col mx-auto">
         {/*-------Hero Section---------*/}
-        <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center">
           <div className="flex">
             {/*Left*/}
             <div className="lg:flex lg:flex-row lg:visible hidden">
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" lg:flex lg:items-stretch lg:justify-center lg:space-x-7 mt-[60px] mb-36 -mr-48
+          <div className=" lg:flex lg:items-stretch lg:justify-center lg:space-x-7 mt-14 mb-36 -mr-48
           grid grid-cols-1 space-y-8 lg:space-y-0">
             <div className="space-y-4">
               <Image
@@ -293,7 +293,7 @@ export default function Home() {
 
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
-        <div className="mt-[60px] mb-[80px] w-11/12 h-[1px] bg-black mx-auto opacity-30"></div>
+        <div className="mt-14 mb-[80px] w-11/12 h-[1px] bg-black mx-auto opacity-30"></div>
 
         {/*-------Browse By Category---------*/}
         <div className="space-y-[60px] flex flex-col items-start justify-between mx-auto">
@@ -641,7 +641,7 @@ export default function Home() {
           </div>
 
           <div className="space-y-[60px]">
-            <div className="lg:flex items-center justify-center lg:gap-[30px] mt-[60px] mb-36
+            <div className="lg:flex items-center justify-center lg:gap-[30px] mt-14 mb-36
             grid grid-cols-1 space-y-6">
               <div className="space-y-4">
                 <Image
@@ -772,7 +772,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="lg:flex items-center justify-center lg:gap-[30px] mt-[60px] mb-36 
+            <div className="lg:flex items-center justify-center lg:gap-[30px] mt-14 mb-36 
             grid grid-cols-1 space-y-6">
               <div className="space-y-4">
                 <Image
@@ -913,7 +913,7 @@ export default function Home() {
 
         {/*-------------------------------------------------------------------------------------------------------------------*/}
 
-        <div className="mt-[60px] mb-[80px] w-10/12 h-[1px] bg-black mx-auto opacity-30"></div>
+        <div className="mt-14 mb-[80px] w-10/12 h-[1px] bg-black mx-auto opacity-30"></div>
 
         {/*-------New Arrival---------*/}
         <div className="space-y-[60px] flex flex-col items-start justify-between mx-auto">

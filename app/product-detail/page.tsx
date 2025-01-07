@@ -225,7 +225,7 @@ export default function ProductDetailsPage() {
             <p className="font-semibold text-base text-[#DB4444] my-auto">Related Item</p>
         </div>
 
-        <div className="flex items-center justify-center gap-[30px] mt-[60px] mb-36">
+        <div className="flex items-center justify-center gap-[30px] mt-14 mb-36">
 
             <div className="space-y-4">
                 

@@ -109,7 +109,7 @@ export default function Cart() {
 
           <div className="mt-20 flex flex-row mb-36 justify-between w-full">
             <div className="space-x-4 flex">
-              <div className="ring-1 ring-black rounded flex items-center justify-between w-[300px] h-[56px]">
+              <div className="ring-1 ring-black rounded flex items-center justify-between w-[300px] h-14">
                 <p className="text-sm opacity-50 ml-5">Coupon Code</p>
               </div>
 
